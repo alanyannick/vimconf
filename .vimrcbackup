@@ -1,0 +1,16 @@
+set nu
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8
+set encoding=utf-8
+set laststatus=2
+syntax enable
+set t_Co=256
+call pathogen#infect() 
+syntax on  
+filetype plugin indent on 
+"powerline{
+set guifont=PowerlineSymbols\ for\ Powerline
+set nocompatible
+set t_Co=256
+let g:Powerline_symbols = 'fancy'
+"}
